@@ -1,0 +1,14 @@
+\documentclass{article}
+% pre'ambulo
+
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\usepackage[utf8]{inputenc} 
+
+\title{Informe de la Jefatura de Carrera de Pedagogía en Castellano
+enero 2018}
+\author{Domingo Román Montes de Oca}
+
+\begin{document}
+hola hóla caño
+\end{document}
