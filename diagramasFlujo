@@ -1,0 +1,67 @@
+\documentclass{IEEEtran}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows} 
+\tikzset{%
+    ,io/.style={%
+        ,trapezium
+        ,trapezium left angle=70,trapezium right angle=110
+        ,text width=4cm
+        ,minimum height=1cm
+        ,text centered
+        ,draw
+        ,fill=blue!10
+        }
+    ,process/.style={%
+        ,rectangle
+        ,minimum width=3cm,minimum height=1cm
+        ,text width=6cm
+        ,text centered
+        ,draw
+        ,fill=blue!10
+        }
+    ,decision/.style={%
+        ,diamond
+        ,minimum width=2cm,minimum height=1.5cm
+        ,text width=3cm
+        ,text centered
+        ,draw
+        ,fill=blue!10
+        ,aspect=3
+        }
+    ,arrow/.style={%
+        ,thick
+        ,->
+        ,>=stealth
+        }
+    ,line/.style={%
+        ,draw
+        ,-latex'
+        }
+    }
+
+\begin{document}
+    \begin{tikzpicture}[node distance=1.5cm]        
+        \node (in1) [io] {Load historical data available};
+        \node (pro1) [process, below of=in1] {Calculate };
+        \draw [arrow] (in1) -- (pro1);
+        \node (pro2) [process, below of=pro1] {Plug };
+        \draw [arrow] (pro1) -- (pro2);
+        \node (pro3) [process, below of=pro2] {Set   };
+        \draw [arrow] (pro2) -- (pro3);
+        \node (pro4) [process, below of=pro3] {Apply  };
+        \draw [arrow] (pro3) -- (pro4);
+        \node (pro5) [process, below of=pro4] {If  };
+        \draw [arrow] (pro4) -- (pro5);
+        \node (pro6) [process, below of=pro5] {Calculate };
+        \draw [arrow] (pro5) -- (pro6);
+        \node (pro7) [process, below of=pro6,yshift=-1em] {Plug  };
+        \draw [arrow] (pro6) -- (pro7);
+        \node (pro8) [process, below of=pro7,yshift=-1em] {gg};
+        \draw [arrow] (pro7) -- (pro8);
+        \node (dec1) [decision, below of=pro8,yshift=-1.1cm] {};
+        \draw [arrow] (pro8) -- (dec1);
+        \node (out1) [io, below of=dec1,yshift=-2em] {Release};
+        \draw [arrow] (dec1) -- node[anchor=east] {yes} (out1);
+        \path [line] (dec1) -- ++(-4,0) |- (pro6);
+    \end{tikzpicture}
+\end{document}
