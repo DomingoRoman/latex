@@ -15,8 +15,8 @@
 \renewcommand{\footrulewidth}{0.4pt}
 
 % Pie de página
-\fancyfoot[LE,RO]
-{Laboratorio de Fonética\\
+\fancyfoot [LE,RO]
+{\scriptsize Laboratorio de Fonética-USACH\\
 Departamento de Lingüística y Literatura\\
 Av. Ecuador Nº 3659\\
 Estación Central, Santiago, Chile. Teléfono (56-2) 27182334}
@@ -32,7 +32,7 @@ Estación Central, Santiago, Chile. Teléfono (56-2) 27182334}
 Carta de consentimiento informado\\
 \end{Large}
 \end{center}
-\vspace{40}
+\vspace{10}
 
 Estimado participante:
 \par
@@ -54,7 +54,7 @@ quienes se dedican en nuestro país a la enseñanza del español como segunda le
 \vspace{20}
 \textbf{Procedimientos}: Si está de acuerdo en participar en este estudio, se le solicitará lo siguiente:
 \par
-\vspace{20}
+\vspace{10}
 \begin{enumerate}[1.]
 \item Llenar un formulario con información básica de sus datos personales 
 (nivel social y educacional, edad, sexo, grado de dominio de la lengua española, etc.).
@@ -64,7 +64,7 @@ En esta conversación se le preguntará por actividades cotidianas y tendrá una
 \item Leer una lista de palabras. Esta lectura también será grabada y tomará un tiempo máximo de 10 minutos.
 \end{enumerate}
 \par
-\vspace{20}
+\vspace{10}
 En total su participación demorará como máximo 30 minutos.
 \par
 \vspace{20}
@@ -72,14 +72,16 @@ En total su participación demorará como máximo 30 minutos.
 Los datos se tratarán para fines estrictamente académicos en esta y en otras futuras investigaciones 
 que tengan la misma orientación. La información recolectada será codificada antes de los análisis por lo que 
 personas ajenas al equipo responsable de la investigación no podrán identificar a quienes participaron.
+\par
+\vspace{20}
 La participación en esta investigación es completamente voluntaria, sin implicancias de costos ni 
-beneficios para el participante. Usted NO está obligado de ninguna manera a participar en este estudio. 
+beneficios para el participante. Usted \textbf{no} está obligado de ninguna manera a participar en este estudio. 
 Si accede a participar, puede dejar de hacerlo en cualquier momento del transcurso de la investigación 
 y sin repercusión alguna para usted.
 \par
 \vspace{20}
 Detalles de contacto para consultas y dudas: Si tiene cualquier pregunta acerca de esta investigación, 
-puede contactar al encargado del Laboratorio Dr. Domingo Román a su correo electrónico 
+puede contactar al encargado del Laboratorio, el Dr. Domingo Román, a su correo electrónico 
 domingo.roman@usach.cl o al correo laboratorio.fonetica@usach.cl y a su teléfono institucional 227182336. 
 Si usted tiene alguna consulta o preocupación respecto a sus derechos como participante de este estudio, 
 puede contactar al Comité de Ética al correo electrónico: comitedeetica@usach.cl
@@ -92,34 +94,32 @@ Declaración de consentimiento informado\\
 \end{Large}
 \end{center}
 
-Yo,he tenido la oportunidad de leer esta declaración 
+Yo,  \rule{40mm}{0.1mm} \rule{40mm}{0.1mm} he tenido la oportunidad de leer esta declaración 
 de consentimiento informado, 
 hacer preguntas acerca del proyecto de investigación, y acepto conscientemente participar en este proyecto 
 y que quede registro de mi voz para esta y otras investigaciones relacionadas. Queda en mi poder una copia 
 de esta carta que he firmado.
+\par
+\vspace{20}
+Documento de identificación: \bigcirc ~Carné \hspace{25} \bigcirc Pasaporte
+\par \vspace{10}
+Nº del documento:  \rule{35mm}{0.1mm}
 
-Firma del participante		
+\vspace{10}
 
-Fecha:dedel 2018
+\begin{center}
+\begin{tabular}{c c c}
+ \rule{35mm}{0.1mm}& & \rule{35mm}{0.1mm} \\
+ Firma del informante & & Firma del investigador \\
+\end{tabular}
+\end{center}
 
-Documento de identificación 
-
-Nº: carnet
-
-pasaporte
-
-
-Firma del investigador:
-
+\vspace{10}
 
 (Firmas en duplicado: una copia para el participante y otra para el investigador)
 
-
+\begin{center}
 \begin{flushright} Santiago, {\today}\end{flushright}
 \vspace{50}
-
-
-
-
-
+\end{center}
 \end{document}
