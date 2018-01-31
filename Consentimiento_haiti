@@ -1,0 +1,125 @@
+\documentclass{article}
+\usepackage [spanish] {babel} 
+\usepackage [T1]{fontenc}
+\usepackage [utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{titling}
+\usepackage{fancyhdr}
+\usepackage{enumerate} 
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+% Pie de página
+\fancyfoot[LE,RO]
+{Laboratorio de Fonética\\
+Departamento de Lingüística y Literatura\\
+Av. Ecuador Nº 3659\\
+Estación Central, Santiago, Chile. Teléfono (56-2) 27182334}
+
+% Encabezado de página
+\rhead{\begin{picture}(0,0) \put(-106,0){\includegraphics[width=40mm]{./Imagousach_4}} \end{picture}}
+\fancyhead[LO]
+
+\begin{document}
+
+\begin{center}
+\begin{Large}
+Carta de consentimiento informado\\
+\end{Large}
+\end{center}
+\vspace{40}
+
+Estimado participante:
+\par
+\vspace{20}
+
+Usted ha sido invitado a participar en la investigación \textbf{\textit{Dificultades fonéticas de haitianos aprendientes de 
+español como segunda lengua en Santiago de Chile}} a cargo del responsable del Laboratorio de Fonética 
+de la USACH, el Dr. Domingo Román M. El propósito de esta carta es ayudarlo a tomar la decisión de participar 
+o no en la presente investigación.
+\par
+\vspace{20}
+\textbf{Información general:} Este estudio es parte de las investigaciones del Laboratorio de Fonética de la USACH y en 
+ella participan los estudiantes de Pedagogía en Castellano: Darling Orellana (coordinadora), Noemí Huinca y 
+Eduardo Llanquimán (colaboradores), además del encargado del Laboratorio, el Dr. Domingo Román. 
+Se trata de un estudio sobre las dificultades fonéticas (pronunciación y percepción) que tienen los haitianos al 
+aprender el español que se habla en Chile. El objetivo principal es obtener datos que puedan ser aplicados por 
+quienes se dedican en nuestro país a la enseñanza del español como segunda lengua a inmigrantes haitianos.
+\par
+\vspace{20}
+\textbf{Procedimientos}: Si está de acuerdo en participar en este estudio, se le solicitará lo siguiente:
+\par
+\vspace{20}
+\begin{enumerate}[1.]
+\item Llenar un formulario con información básica de sus datos personales 
+(nivel social y educacional, edad, sexo, grado de dominio de la lengua española, etc.).
+\item Participar en una breve conversación, que será grabada, con alguno de los investigadores. 
+En esta conversación se le preguntará por actividades cotidianas y tendrá una duración máxima de 5 minutos.
+\item Identificar unas palabras que Ud. escuchará. Esta parte tendrá una duración máxima de 15 minutos.
+\item Leer una lista de palabras. Esta lectura también será grabada y tomará un tiempo máximo de 10 minutos.
+\end{enumerate}
+\par
+\vspace{20}
+En total su participación demorará como máximo 30 minutos.
+\par
+\vspace{20}
+\textbf{Confidencialidad:} Toda la información personal obtenida se mantendrá bajo estricta confidencialidad. 
+Los datos se tratarán para fines estrictamente académicos en esta y en otras futuras investigaciones 
+que tengan la misma orientación. La información recolectada será codificada antes de los análisis por lo que 
+personas ajenas al equipo responsable de la investigación no podrán identificar a quienes participaron.
+La participación en esta investigación es completamente voluntaria, sin implicancias de costos ni 
+beneficios para el participante. Usted NO está obligado de ninguna manera a participar en este estudio. 
+Si accede a participar, puede dejar de hacerlo en cualquier momento del transcurso de la investigación 
+y sin repercusión alguna para usted.
+\par
+\vspace{20}
+Detalles de contacto para consultas y dudas: Si tiene cualquier pregunta acerca de esta investigación, 
+puede contactar al encargado del Laboratorio Dr. Domingo Román a su correo electrónico 
+domingo.roman@usach.cl o al correo laboratorio.fonetica@usach.cl y a su teléfono institucional 227182336. 
+Si usted tiene alguna consulta o preocupación respecto a sus derechos como participante de este estudio, 
+puede contactar al Comité de Ética al correo electrónico: comitedeetica@usach.cl
+\par
+\vspace{30}
+
+\begin{center}
+\begin{Large}
+Declaración de consentimiento informado\\
+\end{Large}
+\end{center}
+
+Yo,he tenido la oportunidad de leer esta declaración 
+de consentimiento informado, 
+hacer preguntas acerca del proyecto de investigación, y acepto conscientemente participar en este proyecto 
+y que quede registro de mi voz para esta y otras investigaciones relacionadas. Queda en mi poder una copia 
+de esta carta que he firmado.
+
+Firma del participante		
+
+Fecha:dedel 2018
+
+Documento de identificación 
+
+Nº: carnet
+
+pasaporte
+
+
+Firma del investigador:
+
+
+(Firmas en duplicado: una copia para el participante y otra para el investigador)
+
+
+\begin{flushright} Santiago, {\today}\end{flushright}
+\vspace{50}
+
+
+
+
+
+\end{document}
